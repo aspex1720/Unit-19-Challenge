@@ -1,0 +1,166 @@
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    border-bottom: 10px solid #D98555;
+  }
+  
+  nav li {
+    margin: .5rem;
+  }
+  
+  nav a {
+    font-size: 20px;
+    font-family: "lato", sans-serif;
+    text-decoration: none;
+    padding: 0.5rem .5rem;
+    display: block;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #131D26;
+    
+  }
+  
+  a span {
+    margin-right: 4px;
+    
+  }
+  
+  
+  header {
+    background-color: #082b59;
+    
+  }
+  
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 9rem; 
+  }
+
+  @media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    nav, ul, li, main {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  body {
+  /*   border: 2px solid red; */
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    height: auto;
+  }
+  
+  main {
+  /*  background-color: green; */
+   width: 900px;
+   height: 400px;
+   margin: auto;
+   margin-top: 80px;
+   margin-bottom: 50px;
+   font-family: "lato", sans-serif;
+   display: flex;
+    
+  }
+  
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    margin-top: 0;
+     
+  }
+  
+  article p a {
+    color: #59331D;
+    
+  }
+  
+  .p2 {
+    margin-bottom: 25px;
+  }
+  
+  .button {
+    text-decoration: none;
+    background-color: #59331D;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    font-family: "lato", sans-serif;
+    
+  }
+  
+  .button:hover {
+    background-color: #131D26;
+    
+  }
+  
+  article{
+  /*   border: 2px solid red; */
+    line-height: 2rem;
+    margin-right: 30px;
+     
+    
+  }
+  
+  aside {
+    color: #ffffff;
+    background-color: #59331D;
+    border-radius: 10px;
+    width: 700px;
+    height: 420px;
+    margin-left: 0;
+    margin-right: 0;
+    
+  }
+  
+  aside img {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    
+  }
+  
+  aside figcaption {
+    line-height: 1.5rem;
+    font-family: "lato", sans-serif;
+    font-size: 10pt;
+    margin: 15px 5px 5px 5px;
+    
+    
+  }
+  
+  
+  footer {
+  /*   border: 2px solid red; */
+    width: auto;
+    height: 4rem;
+    margin: auto;
+    background-color: #082B59;
+    border-top: 10px solid #D98555;
+    padding-top: 10px;
+    
+  }
+  
+  footer p{
+    color: #ffffff;
+    font-family: "lato", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  footer p span {
+    margin-right: 4px;
+  }
