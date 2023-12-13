@@ -102,6 +102,10 @@ main {
  align-items: center;
  width: auto; 
  padding: 2rem;
+ background-image: url("media/images/gulp-bottom-beans.jpg");
+ background-repeat: repeat-x;
+ background-position: bottom;
+ padding-bottom: 300px;
 }
 
 article {

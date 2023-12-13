@@ -110,7 +110,10 @@
     font-family: "lato", sans-serif;
     line-height: 2rem;
     width: auto; 
-    
+    background-image: url("media/images/gulp-bottom-beans.jpg");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    padding-bottom: 300px;
   }
   
   h3 {
